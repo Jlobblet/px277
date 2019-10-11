@@ -2,5 +2,5 @@
 import numpy as np
 
 array = np.arange(16).reshape((4, 4))
-array[[0, 1]] = array[[1, 0]]
+array[[1, 2]] = array[[2, 1]]
 print(array)
