@@ -5,4 +5,4 @@ import numpy as np
 
 
 def increasing(data):
-    print((np.diff(data) > 0).all() == True)
+    return (np.diff(data) > 0).all() == True

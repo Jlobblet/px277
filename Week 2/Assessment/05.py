@@ -4,7 +4,4 @@ import numpy as np
 
 
 def unique(data1, data2):
-    return np.unique(np.concat(data1, data2))
-
-
-print(unique([1, 2, 3], [4, 5, 1]))
+    return np.unique(np.concatenate((data1, data2)))
