@@ -2,4 +2,4 @@
 import numpy as np
 
 array = np.arange(2, 10)
-print(np.where((array > 4) & (array < 8)))
+print(array[(array > 4) & (array < 8)])
