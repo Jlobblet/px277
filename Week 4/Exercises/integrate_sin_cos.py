@@ -17,5 +17,4 @@ def integrand(x, n, m):
     return np.sin(x) ** n * np.cos(x) ** m
 
 
-
-print(quad(integrand, -0.5 * np.pi, 0.5 *np.pi, args=(n, m))[0])
+print(quad(integrand, -0.5 * np.pi, 0.5 * np.pi, args=(n, m))[0])
