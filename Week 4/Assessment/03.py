@@ -7,8 +7,7 @@ biggest element difference is 4-1=3 and normalised elements are
 calculated as (list element -minimum list member)/3. That results in
 list elements in the interval [0-1].
 """
-import numpy as np
 
 
 def normlist(array):
-    return (array - min(array)) / (max(array) - min(array))
+    return [(x - min(array)) / (max(array) - min(array)) for x in array]

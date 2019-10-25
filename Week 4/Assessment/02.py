@@ -5,6 +5,6 @@ suitable function.
 """
 import numpy as np
 
-array_1 = np.arange(1, 6)
-array_2 = np.arange(4, 9)
-print(np.linalg.norm(array_1 - array_2))
+array1 = np.arange(1, 6)
+array2 = np.arange(4, 9)
+print(np.linalg.norm(array1 - array2))

@@ -6,4 +6,4 @@ import numpy as np
 
 
 def stats(data):
-    return np.mean, np.std, np.std ** 2
+    return np.mean(data), np.std(data), np.std(data) ** 2
