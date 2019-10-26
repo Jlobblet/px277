@@ -18,7 +18,7 @@ y[2] += 0.1
 
 
 def polydeg2(x, a, b, c):
-    return (a * x ** 2 + b * x + c)
+    return a * x ** 2 + b * x + c
 
 
 print(curve_fit(polydeg2, x, y)[0])
