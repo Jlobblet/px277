@@ -7,7 +7,7 @@ import numpy as np
 
 def increasing(data):
     """Take an array and return whether the array is strictly increasing or not.
-    
+
     Parameters:
     ------
     data: numpy array to be tested
