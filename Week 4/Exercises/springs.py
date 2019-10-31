@@ -19,7 +19,12 @@ positions = [
 forces = [
     k
     * np.sum(
-        [positions[i] - positions[j] for i in range(len(positions)) if i != j], axis=0
+        [
+            positions[i] - positions[j]
+            for i in range(len(positions))
+            if i != j
+        ],
+        axis=0,
     )
     for j in range(len(positions))
 ]

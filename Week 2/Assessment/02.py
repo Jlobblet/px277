@@ -2,4 +2,6 @@
 import numpy as np
 
 array = np.arange(6)
-print(np.array([sum(array[: place + 1]) for place in range(len(array))]))
+print(
+    np.array([sum(array[: place + 1]) for place in range(len(array))])
+)
