@@ -19,16 +19,7 @@ import numpy as np
 
 
 def calculate_pathlength(array):
-    return sum(
-        [
-            (
-                (array[i][0] - array[i - 1][0]) ** 2
-                + (array[i][1] - array[i - 1][1]) ** 2
-            )
-            ** 0.5
-            for i in range(1, len(array))
-        ]
-    )
+    return sum([np.linalg.norm(array[i] - array[i - 1]) for i in range(1, len(array))])
 
 
 def pi_approx(N):
