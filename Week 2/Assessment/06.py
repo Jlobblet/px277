@@ -7,7 +7,9 @@ interest rate.
 
 
 def savings(years, initial_deposit, annual_interest_rate):
-    return initial_deposit * ((annual_interest_rate + 100) / 100) ** years
+    return (
+        initial_deposit * ((annual_interest_rate + 100) / 100) ** years
+    )
 
 
 def add_interest(initial_balance, annual_interest_rate):
