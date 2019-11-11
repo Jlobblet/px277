@@ -1,3 +1,4 @@
 **/__pycache__/
 **/.ipynb_checkpoints/
 **/Jupyter/test.py
+*.png
